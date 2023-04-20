@@ -1,8 +1,7 @@
-@font-face{
-    font-family :Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
-    src: url(Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif);
-}
+{
+    'front-family' :Impact, Haettenschweiler, Arial Narrow Bold, sans-serif
+    font-family:Impact, Haettenschweiler, Arial Narrow Bold, sans-serif
+    <src >url(Impact, Haettenschweiler, Arial Narrow Bold, sans-serif);}
 
 #titulo{
     font-size: xx-large 100px;cm;
@@ -14,14 +13,17 @@ padding: 1px 9px 1px 9px;
 border-style: double;
 margin: 10px;
 }
-img{
-width: 90%;
+#boton2{
+    background-color: beige;
+    border-radius: 100px;
+    padding-right: 1px;
+    border-style: double;
+    margin: 5px;
+    width: 50px;
 }
 
 a{
-    
     width: 8%;
-    
 }
 #boton:hover{
     background-color: rgb(240, 237, 237);
@@ -35,7 +37,7 @@ a{
     }
 
 .texto-centrado{
-    font-family :fantasy;
+    font-family :Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
     color: rgb(226, 5, 5);
 
